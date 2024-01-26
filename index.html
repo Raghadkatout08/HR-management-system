@@ -18,67 +18,49 @@
             </ul>
         </nav>
     </header>
+
     <br><br>
-    <main class="empInfoDiv" id="empInfo">
-        
-        <br><br><br><br><br>
 
-
-        <div id="empsalary"></div>
-
-
-        <script src="./js/app.js"></script>
-
-        <br>
-        
-
-       
-        <div>
-            <h2> HR Management System </h2>
+    <!-- <Main class="empInfoDiv" id="empInfo"> -->
+        <main>
+            
+            <h1>Form</h1>
 
             <form id="form">
-                <!-- ... form content ... -->
+                <label for="fName"> Full Name: </label> <br><br>
+                <input type="text" id="fName" value="">
+
+                <label for="department"> Select Department</label> <br><br>
+                <select name="department" id="department" value="">
+                    <option value="Administration"> Administration </option>
+                    <option value="Marketing">Marketing </option>
+                    <option value="Development"> Development </option>
+                    <option value="Finance"> Finance </option>
+                </select>
+
+                <label for="levelEmp"> Select Level</label> <br><br>
+                <select name="levelEmp" id="levelEmp">
+                    <option value="Junior">Junior</option>
+                    <option value="Mid-Senior">Mid-Senior</option>
+                    <option value="Senior">Senior</option>
+                </select>
+
+
+                <label for="imageURL"> Image :</label> <br><br>
+                <input type="text" id="imageURL" value="">
+
+                <input type="submit" id="submit" value="submit">
+
             </form>
-                <!-- Full Name -->
-                <label for="fullName"> full Name: </label>
-                <input type="text" id="name" value=""> <br><br>
-
-                <!-- Select Department -->
-                <label for="Dep"> Select Your Department: </label> <br><br>
-                <select name="department" id="department">
-                    <option value="admin">Administraion</option>
-                    <option value="maket">Marketing</option>
-                    <option value="devs">Development</option>
-                    <option value="fin">Finance</option>
-                </select>
-
-
-                <br><br><br>
-
-                <!-- select Level -->
-                <label for="level">Select Your Level:</label> <br><br>
-
-                <select name="level" id="level">
-                    <option value="junior">Junior</option>
-                    <option value="midsenior">Mid-Senior</option>
-                    <option value="senior">Senior</option>
-                </select>
-
-                <br><br>
-
-                <!-- Image URL -->
-                <label for="img"> Image URL</label> <br>
-                <input type="file" id="image"> <br><br>
-
-                <!-- Submit button -->
-                <input type="submit" value="submit">
+            
+        <div class="empInfoDiv" id="empInfo"> 
             
         </div>
-    
-        
-    </main>
+
+    </Main>
 
     <footer>
+
         <div>
             <p> &copy; 2024 HR Management System | All rights reserved </p>
             <div>
@@ -87,6 +69,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/app.js"></script>
 </body>
 
 </html>

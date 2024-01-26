@@ -17,3 +17,4 @@
 3. Added an event listener to retrieve data from the form instead of using hard-coded data.
 4. Refactored the render prototype function to display each employee's information in a separate card on the home page.
 5. Separated each department into a dedicated section.
+

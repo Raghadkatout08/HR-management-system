@@ -1,3 +1,5 @@
+<!-- index.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,10 +21,9 @@
         </nav>
     </header>
 
-    <br><br>
-
-    <!-- <Main class="empInfoDiv" id="empInfo"> -->
-        <main>
+    <main>
+        <!-- <Main class="empInfoDiv" id="empInfo"> -->
+        <main id="empInfo"> <!-- Corrected: Use lowercase "main" -->
             
             <h1>Form</h1>
 
@@ -45,7 +46,6 @@
                     <option value="Senior">Senior</option>
                 </select>
 
-
                 <label for="imageURL"> Image :</label> <br><br>
                 <input type="text" id="imageURL" value="">
 
@@ -53,24 +53,25 @@
 
             </form>
             
-        <div class="empInfoDiv" id="empInfo"> 
-            
-        </div>
-
-    </Main>
-
-    <footer>
-
-        <div>
-            <p> &copy; 2024 HR Management System | All rights reserved </p>
-            <div>
-                <a href="https://github.com/Raghadkatout08">Github</a>
-                <a href="https://jo.linkedin.com/in/raghad-k-263949211">LinkedIn</a>
+            <div class="empInfoDiv" id="empInfo"> 
+                
             </div>
-        </div>
-    </footer>
 
-    <script src="./js/app.js"></script>
+        </main>
+
+        <footer>
+            <div>
+                <p> &copy; 2024 HR Management System | All rights reserved </p>
+                <div>
+                    <a href="https://github.com/Raghadkatout08">Github</a>
+                    <a href="https://jo.linkedin.com/in/raghad-k-263949211">LinkedIn</a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./js/app.js"></script>
+        <script src="./js/accounting.js" defer></script>
+    </main>
 </body>
 
 </html>
